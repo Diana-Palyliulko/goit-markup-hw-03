@@ -8,10 +8,14 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  padding-bottom: 72px;
 }
 .team-page-list {
+  display: flex;
+  gap: 24px;
 }
 .team-page-item {
+  width: calc((100% - 72px) / 4);
   background-color: white;
 }
 .team-page-persone {
@@ -21,6 +25,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  border-radius: 0 0 4px 4px;
 }
 .team-page-text {
   font-weight: 400;
@@ -29,4 +34,14 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.team-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  padding: 32px 16px;
+  width: 264px;
+  height: 120px;
 }
