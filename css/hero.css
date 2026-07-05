@@ -1,13 +1,6 @@
-.hero-page .container {
-  padding: 188px 0px;
-
-  height: 600px;
-}
 .hero-page {
   background-color: #2e2f42;
-  padding-top: 0;
-  padding-bottom: 0;
-  min-width: 1440px;
+  padding: 188px 0px;
 }
 .hero-wrap {
   display: flex;
@@ -29,8 +22,6 @@
 .hero-page-button {
   border-radius: 4px;
   padding: 16px 32px;
-  height: 56px;
-  min-width: 169px;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;

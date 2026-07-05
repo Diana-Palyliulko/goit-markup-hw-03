@@ -1,3 +1,6 @@
+.header-page {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-page .container {
   display: flex;
   align-items: center;
@@ -33,14 +36,14 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-right: 340px;
-  margin-left: auto;
+  margin-left: 76px;
 }
 .navigation-list {
   display: flex;
   align-items: flex-start;
   gap: 40px;
 }
-.nav-list-item {
+.nav-list-item a {
   display: block;
   padding: 24px 0;
 }
@@ -59,7 +62,10 @@
   align-items: center;
   gap: 40px;
 }
-
+.contakt-list-item a {
+  display: block;
+  padding: 24px 0;
+}
 .contakt-list-item a:hover,
 .contakt-list-item a:focus {
   color: #404bbf;
